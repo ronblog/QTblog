@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionMX1"/>
+   <addaction name="actionMX2"/>
+   <addaction name="actionRX1"/>
+   <addaction name="actionRX2"/>
+   <addaction name="actionMY1"/>
+   <addaction name="actionMY2"/>
+   <addaction name="actionRY1"/>
+   <addaction name="actionRY2"/>
+  </widget>
+  <action name="actionMX1">
+   <property name="text">
+    <string>MX1</string>
+   </property>
+  </action>
+  <action name="actionMX2">
+   <property name="text">
+    <string>MX2</string>
+   </property>
+  </action>
+  <action name="actionRX1">
+   <property name="text">
+    <string>RX1</string>
+   </property>
+  </action>
+  <action name="actionRX2">
+   <property name="text">
+    <string>RX2</string>
+   </property>
+  </action>
+  <action name="actionRY1">
+   <property name="text">
+    <string>RY1</string>
+   </property>
+  </action>
+  <action name="actionRY2">
+   <property name="text">
+    <string>RY2</string>
+   </property>
+  </action>
+  <action name="actionMY1">
+   <property name="text">
+    <string>MY1</string>
+   </property>
+  </action>
+  <action name="actionMY2">
+   <property name="text">
+    <string>MY2</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
